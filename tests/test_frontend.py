@@ -30,3 +30,7 @@ def test_dashboard_contains_arpit():
 def test_dashboard_has_title():
     content = Path('index.html').read_text(encoding='utf-8')
     assert '<title>PlaceTrack - Dashboard</title>' in content
+
+def test_dashboard_heading():
+    content = Path('index.html').read_text(encoding='utf-8')
+    assert 'Welcome back, Arpit' in content
