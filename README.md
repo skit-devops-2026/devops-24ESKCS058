@@ -7,17 +7,16 @@
 
 | Roll No. | Name | GitHub username |
 |---|---|---|
-| <roll> | <name> | <username> |
+| 24ESKCS058 | Arpit Gupta | guptaarpitggc-eng |
 
 ## About
 
-<Two or three sentences on what this application does.>
-
+PlaceTrack is a placement preparation and study management application that helps students organize their DSA, aptitude, subjects, goals, and placement preparation. It allows students to track their progress and manage their preparation activities in one platform.
 ## Tech stack
 
-- Frontend: <e.g. React>
-- Backend: <e.g. Node.js / Express>
-- Database: <e.g. PostgreSQL>
+- Frontend:  React
+- Backend:  Node.js + Express
+- Database: MongoDB
 
 ## Running locally
 
@@ -32,5 +31,5 @@ make run
 
 ## Health endpoint
 
-`GET /health` returns the running commit SHA. See `Makefile` and the milestone
-sheet for why this is required.
+GET /health returns the running commit SHA. See Makefile and the milestone sheet for why this is required.
+
