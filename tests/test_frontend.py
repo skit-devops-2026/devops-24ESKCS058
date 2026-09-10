@@ -26,3 +26,7 @@ def test_dashboard_contains_place_track():
 def test_dashboard_contains_arpit():
     content = Path("index.html").read_text(encoding="utf-8")
     assert "Arpit" in content
+
+def test_dashboard_has_title():
+    content = Path('index.html').read_text(encoding='utf-8')
+    assert '<title>PlaceTrack - Dashboard</title>' in content
