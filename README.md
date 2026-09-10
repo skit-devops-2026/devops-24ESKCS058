@@ -1,7 +1,5 @@
-# <Project Name>
+# Place Track
 
-> Replace every angle-bracket placeholder below. The hygiene check in CI will
-> fail until you do.
 
 ## Author
 
@@ -27,7 +25,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+<Not deployed yet. Will be added during the deployment milestone.>
 
 ## Health endpoint
 
