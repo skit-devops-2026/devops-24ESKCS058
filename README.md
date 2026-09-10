@@ -10,6 +10,12 @@
 ## About
 
 PlaceTrack is a placement preparation and study management application that helps students organize their DSA, aptitude, subjects, goals, and placement preparation. It allows students to track their progress and manage their preparation activities in one platform.
+## Key Features
+
+- Track DSA problem-solving progress.
+- Manage subjects and aptitude preparation.
+- Set and monitor placement preparation goals.
+- View study progress and recent activities.
 ## Tech stack
 
 - Frontend:  React
