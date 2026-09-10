@@ -27,7 +27,7 @@ make run
 
 ## Live URL
 
-<Add once M5 is done. Until then, leave as is.>
+<Not deployed yet. Will be added during the deployment milestone.>
 
 ## Health endpoint
 
