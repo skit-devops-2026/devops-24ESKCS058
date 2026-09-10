@@ -34,3 +34,7 @@ def test_dashboard_has_title():
 def test_dashboard_heading():
     content = Path('index.html').read_text(encoding='utf-8')
     assert 'Welcome back, Arpit' in content
+
+def test_css_file_is_linked():
+    content = Path('index.html').read_text(encoding='utf-8')
+    assert 'css/style.css' in content
