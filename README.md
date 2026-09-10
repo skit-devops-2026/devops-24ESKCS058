@@ -40,3 +40,11 @@ make run
 
 GET /health returns the running commit SHA. See Makefile and the milestone sheet for why this is required.
 
+
+## CI
+
+The project uses GitHub Actions to run repository hygiene checks and frontend tests on pushes and pull requests.
+
+## CI
+
+The project uses GitHub Actions to run repository hygiene checks and frontend tests on pushes and pull requests.
