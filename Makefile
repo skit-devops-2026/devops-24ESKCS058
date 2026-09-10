@@ -1,4 +1,4 @@
-﻿.PHONY: install test build run docker-build docker-up
+.PHONY: install test build run docker-build docker-up
 
 install:
 	@echo "No external dependencies required for static frontend"
@@ -16,4 +16,4 @@ docker-build:
 	@echo "Docker build will be configured in M4"
 
 docker-up:
-    docker compose up --build
+	docker compose up --build
