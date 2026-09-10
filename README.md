@@ -16,6 +16,9 @@ PlaceTrack is a placement preparation and study management application that help
 - Manage subjects and aptitude preparation.
 - Set and monitor placement preparation goals.
 - View study progress and recent activities.
+## Project Structure
+
+The project is organized into separate files and folders for the dashboard pages, styling, and JavaScript functionality. This structure keeps the frontend code easy to maintain and extend.
 ## Tech stack
 
 - Frontend:  React
