@@ -10,7 +10,7 @@ build:
     @echo "Static frontend build check passed"
 
 run:
-    @python -m http.server 8000
+     @python -m http.server 8000
 
 docker-build:
     @echo "Docker build will be configured in M4"
