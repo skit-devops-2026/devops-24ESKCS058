@@ -34,7 +34,7 @@ make run
 
 ## Live URL
 
-<Not deployed yet. Will be added during the deployment milestone.>
+https://devops-24eskcs058.onrender.com
 
 ## Health endpoint
 

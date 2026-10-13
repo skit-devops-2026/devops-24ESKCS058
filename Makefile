@@ -1,4 +1,7 @@
-.PHONY: install test build run docker-build docker-up
+.PHONY: install test build run docker-build docker-push docker-up
+
+IMAGE_NAME ?= guptaarpitggc-eng/placetrack
+IMAGE_TAG  ?= latest
 
 install:
 	@echo "No external dependencies required for static frontend"
@@ -13,7 +16,10 @@ run:
 	@python -m http.server 8000
 
 docker-build:
-	@echo "Docker build will be configured in M4"
+	docker build -t $(IMAGE_NAME):$(IMAGE_TAG) .
+
+docker-push:
+	docker push $(IMAGE_NAME):$(IMAGE_TAG)
 
 docker-up:
 	docker compose up --build

@@ -1,0 +1,22 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    monitor: 'placetrack-monitor'
+
+scrape_configs:
+  # Prometheus itself
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # PlaceTrack nginx app via nginx-exporter
+  - job_name: 'placetrack-nginx'
+    static_configs:
+      - targets: ['nginx-exporter:9113']
+    metrics_path: /metrics
+
+  # Node exporter (if running on host)
+  - job_name: 'node'
+    static_configs:
+      - targets: ['host.docker.internal:9100']
