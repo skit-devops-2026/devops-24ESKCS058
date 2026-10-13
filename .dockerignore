@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+.github
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Node
+node_modules
+npm-debug.log
+package-lock.json
+
+# Python / tests
+__pycache__
+*.pyc
+tests/
+
+# CI / Dev config
+Makefile
+Jenkinsfile
+.env
+.env.example
+
+# Kubernetes & monitoring (not needed in image)
+k8s/
+monitoring/
+
+# Docs
+docs/
+
+# Editor / OS
+.vscode
+.idea
+*.DS_Store
+Thumbs.db
