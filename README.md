@@ -34,7 +34,7 @@ make run
 
 ## Live URL
 
-https://devops-24eskcs058.onrender.com
+https://placetrack-app.onrender.com
 
 ## Health endpoint
 

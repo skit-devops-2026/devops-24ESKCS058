@@ -1,7 +1,7 @@
 # Deployment Screenshot
 
 The PlaceTrack application is deployed and live at:
-**https://devops-24eskcs058.onrender.com**
+**https://placetrack-app.onrender.com**
 
 ## Deployment Details
 
