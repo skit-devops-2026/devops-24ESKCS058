@@ -1,6 +1,6 @@
 .PHONY: install test build run docker-build docker-push docker-up
 
-IMAGE_NAME ?= guptaarpitggc-eng/placetrack
+IMAGE_NAME ?= arpitgargggc/placetrack
 IMAGE_TAG  ?= latest
 
 install:

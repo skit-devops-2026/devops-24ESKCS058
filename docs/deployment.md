@@ -8,7 +8,7 @@ The PlaceTrack application is deployed and live at:
 - **Platform**: Render (Static Site)
 - **Service**: PlaceTrack Dashboard
 - **Status**: Live ✅
-- **Container Registry**: Docker Hub — `guptaarpitggc-eng/placetrack:latest`
+- **Container Registry**: Docker Hub — `arpitgargggc/placetrack:latest`
 
 ## Screenshot
 
